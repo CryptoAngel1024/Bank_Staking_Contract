@@ -1,0 +1,30 @@
+{
+  "name": "stake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "@truffle/hdwallet-provider": "^2.0.8",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "ethers": "^5.6.8",
+    "truffle": "^5.5.16",
+    "truffle-contract": "^4.0.31",
+    "truffle-hdwallet-provider-privkey": "^0.3.0",
+    "truffle-privatekey-provider": "^1.5.0",
+    "truffle-test-helpers": "^0.2.2",
+    "web3": "^1.7.3"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.26"
+  }
+}
